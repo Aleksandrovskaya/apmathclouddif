@@ -26,7 +26,7 @@
 		for (int i=0; i < N; ++i){
 			t = t_0 + step * i;
 			
-			currentx1 = x1 + step* (-0.1252*x1 + -0.004637*x2+-0.002198*x3); 
+			currentx1 = x1 + step* (-0.1252*x1 + -0.004637*(x2-xd)+-0.002198*x3); 
 			currentx2 = x2 + step*x1 ;
 			currentx3= x3 + step*(10*x1 + -0.2*x3 +1*(x2-xd));
 			
